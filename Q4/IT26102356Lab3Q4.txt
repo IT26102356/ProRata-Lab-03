@@ -1,0 +1,35 @@
+import java.util.Scanner;
+	public class IT26102356Lab3Q4{
+		public static void main(String[] args){
+		
+		int num,ans1,ans2,ans3,ans4,ans5;
+		
+		Scanner input = new Scanner(System.in);
+		
+		System.out.print("Enter a five-digit number: ");
+		num = input.nextInt();
+		
+		ans1 = num / 10000;
+		num = num % 10000;
+		
+		ans2 = num / 1000;
+		num = num % 1000;
+		
+		ans3 = num/100;
+		num = num % 100;
+		
+		ans4 = num/10;
+		num = num % 10;
+		
+		ans5 = num/1;
+		num = num % 1;
+		
+		System.out.println();
+		
+		System.out.print(ans1 + " "+ ans2 + " " + ans3 + " " + ans4 + " " + ans5 + " ");
+		
+		
+		}
+	
+	
+	}
